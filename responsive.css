@@ -1,0 +1,18 @@
+@media screen and (max-width:600px) {
+    .banner{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .banner-content{
+        padding-top: 30px;
+    }
+    .banner-title{
+        font-size: 30px;
+    }
+    .banner-form{
+        flex-direction: column;
+    }
+    .form{
+        width: 255px;
+    }
+}
