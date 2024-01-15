@@ -15,10 +15,22 @@ body{
     color: #FFF;
     border: none;
 }
-/* Header section */
-.header {
+.primary-title{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.primary-des{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+}
 
-  }
+/* Header section */
+.header{
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
 .nav-section {
     max-width: 1170px;
     margin: 0 auto;
@@ -54,6 +66,9 @@ body{
     font-weight: 400;
     text-decoration: none;
   }
+  .item-container i{
+    display: none;
+  }
 #id{
     color: #FF5400;
 }
@@ -68,6 +83,7 @@ body{
     border-radius: 16px;
     display: block;
     text-align: center;
+    margin-bottom: 0;
 }
 .banner-title{
     color: #FFF;
@@ -99,4 +115,29 @@ body{
     background: #FFF;
     padding:16px 0px 16px 16px ;
     border: none;
+}
+
+/* tour part */
+.tour{
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    margin-top: 100px;
+}
+.tour-info{
+    width: 50%;
+}
+.tour-info p{
+    line-height: 26px;
+    padding: 30px 0;
+}
+.tour-info ul{
+    margin-left: 30px;
+}
+.tour-info ul li{
+    padding: 5px;
+}
+.tour-img{
+    width: 50%;
 }

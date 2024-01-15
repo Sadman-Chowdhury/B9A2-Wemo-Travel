@@ -1,4 +1,20 @@
 @media screen and (max-width:600px) {
+    .header{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .item-container a{
+        display: none;
+    }
+    .item-container i{
+        display:flex;
+    }
+    .nav-section{
+        gap:40%;
+    }
+    .nav-container p{
+        font-size: 22px;
+    }
     .banner{
         width: 90%;
         margin: 0 auto;
@@ -9,10 +25,19 @@
     .banner-title{
         font-size: 30px;
     }
-    .banner-form{
+    .banner-form, .tour{
         flex-direction: column;
     }
     .form{
         width: 255px;
+    }
+    .tour{
+        margin-left: 20px;
+    }
+    .tour-info{
+        width: 95%;
+    }
+    .tour-img img{
+        width: 175%;
     }
 }
