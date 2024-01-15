@@ -1,4 +1,10 @@
 @media screen and (max-width:600px) {
+    .primary-title{
+        font-size: 20px;
+    }
+    .primary-des{
+        font-size: 14px;
+    }
     .header{
         width: 90%;
         margin: 0 auto;
@@ -25,7 +31,7 @@
     .banner-title{
         font-size: 30px;
     }
-    .banner-form, .tour{
+    .banner-form, .tour, .d-1, .d-2, .d-3{
         flex-direction: column;
     }
     .form{
@@ -39,5 +45,13 @@
     }
     .tour-img img{
         width: 175%;
+    }
+    .span{
+        font-size: 20px;
+    }
+    .img1, .img2, .img3, .img4, .img5, .img6, .img7{
+        width: 90%;
+        height: 176px;
+        margin: 0 auto;
     }
 }
