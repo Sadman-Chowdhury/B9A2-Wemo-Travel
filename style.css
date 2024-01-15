@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Merriweather:wght@400;700;900&family=Mulish:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+  
+body{
+    font-family: Muslish;
+}
+.primary-btn{
+    border-radius: 8px;
+    background: #FF5400;
+    padding: 16px 34px;
+    color: #FFF;
+    border: none;
+}
+/* Header section */
+.header {
+
+  }
+.nav-section {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+}
+.nav-container {
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+.nav-container img {
+    object-fit: cover;
+  }
+.nav-container p {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-weight: 800;
+  }
+.color{
+    color:#FF5400;
+}
+.item-container {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item-container a {
+    color: #424247;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+  }
+#id{
+    color: #FF5400;
+}
+
+/* main section */
+/* banner part */
+.banner{
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    border-radius: 16px;
+    display: block;
+    text-align: center;
+}
+.banner-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-weight: 800;
+}
+.banner-content{
+    padding-top: 120px;
+}
+.banner-des{
+    padding-top: 24px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.banner-form{
+    margin-top: 30px;
+    padding: 16px;
+    gap: 24px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-flex;
+}
+.form{
+    width: 174px;
+    border-radius: 8px;
+    background: #FFF;
+    padding:16px 0px 16px 16px ;
+    border: none;
+}
