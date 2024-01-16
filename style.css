@@ -307,7 +307,7 @@ body{
     color: #131318;
     font-size: 24px;
     font-weight: 800;
-    padding: 40px 0;
+    padding: 30px 0;
 }
 .card-des{
     color: #5A5A5D;
@@ -378,6 +378,45 @@ body{
 .discount-2{
     font-size: 32px;
     font-weight: 800;
+}
+
+/* Review part */
+.review{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.review-main{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+}
+.review-container{
+    display: flex;
+    gap: 20px;
+}
+.review-card{
+    border: none;
+    background-color:beige;
+    border-radius: 16px;
+    width: 33.33%;
+    height: 200px;
+    padding: 30px;
+}
+.review-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 20px 0;
+}
+.review-des{
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 20px;
+}
+.review-btn{
+    text-align: center;
+    margin-top: 40px;
 }
 
 /* Footer section */
