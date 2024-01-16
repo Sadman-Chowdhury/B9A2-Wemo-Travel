@@ -1,8 +1,8 @@
 @media screen and (max-width:600px) {
-    .primary-title{
+    .primary-title, .card-title{
         font-size: 20px;
     }
-    .primary-des{
+    .primary-des, .card-des{
         font-size: 14px;
     }
     .header{
@@ -31,7 +31,7 @@
     .banner-title{
         font-size: 30px;
     }
-    .banner-form, .tour, .d-1, .d-2, .d-3{
+    .banner-form, .tour, .d-1, .d-2, .d-3, .newsletter{
         flex-direction: column;
     }
     .form{
@@ -59,5 +59,29 @@
         height: 330px;
         border-radius: 16px;
         padding: 40px;
+    }
+    .news-info{
+        width: 90%;
+        height: 460px;
+        margin: 0 auto;
+    }
+    .news-img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    .news-info input{
+        padding: 16px 130px 16px 20px;
+    }
+    .discount{
+        width: 210px;
+        height: 78px;
+        left: 35%;
+        top: 74%;
+    }
+    .discount-1{
+        font-size: 15px;
+    }
+    .discount-2{
+        font-size: 21px;
     }
 }

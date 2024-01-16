@@ -32,7 +32,7 @@ body{
     margin-top: 20px;
 }
 .nav-section {
-    max-width: 1170px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
 }
@@ -76,10 +76,12 @@ body{
 /* main section */
 /* banner part */
 .banner{
-    max-width: 1170px;
+    max-width: 1400px;
     height: 500px;
     margin: 0 auto;
     background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 16px;
     display: block;
     text-align: center;
@@ -119,7 +121,7 @@ body{
 
 /* tour part */
 .tour{
-    max-width: 1170px;
+    max-width: 1400px;
     margin: 0 auto;
     display: flex;
     gap: 30px;
@@ -142,11 +144,19 @@ body{
 .tour-img{
     width: 50%;
 }
+.tour-img img{
+    width: 100%;
+    display: block;
+    height: 75%;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 16px;
+}
 
 /* Destination part */
 
 .destination{
-    max-width: 1170px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 #one, #two{
@@ -256,7 +266,7 @@ body{
 
 /* Choose part */
 .choose{
-    max-width: 1170px;
+    max-width: 1400px;
     margin: 50px auto;
 }
 .choose-info{
@@ -303,4 +313,69 @@ body{
     color: #5A5A5D;
     font-size: 16px;
     line-height: 26px;
+}
+
+/* Newsletter part*/
+.newsletter{
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    margin-top: 100px;
+
+}
+.news-info{
+    width: 40%;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    height: 422px;
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+}
+.news-img hr{
+    background: rgba(19, 19, 24, 0.10);
+}
+.news-info input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    padding: 16px 250px 16px 20px;
+    border: none;
+}
+.news-img{
+    width: 60%;
+    position: relative;
+}
+.news-img img{
+    width: 100%;
+    display: block;
+    height: 422px;
+    margin: 0 auto;
+    object-fit: cover;
+    border-radius: 16px;
+}
+.discount{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 60%;
+    top: 60%;
+}
+.discount-1{
+    color: #FFF;
+    font-size: 24px;
+    font-weight: 400;
+}
+.discount-2{
+    font-size: 32px;
+    font-weight: 800;
 }
