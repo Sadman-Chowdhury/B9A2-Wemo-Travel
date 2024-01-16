@@ -69,7 +69,7 @@ body{
   .item-container i{
     display: none;
   }
-#id{
+#orange{
     color: #FF5400;
 }
 
@@ -378,4 +378,46 @@ body{
 .discount-2{
     font-size: 32px;
     font-weight: 800;
+}
+
+/* Footer section */
+/* info part */
+footer{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 500px;
+    background: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+    text-align: center;
+}
+.title-container {
+    display: flex;
+    align-items: center;
+  }
+  .title-container p {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+  }
+  .icons{
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+  }
+  .grey{
+    width: 600px;
+    background: rgba(19, 19, 24, 0.10);
+    height: 1px;
+    margin-bottom:30px ;
+  }
+.footer-des{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
 }
