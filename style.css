@@ -253,3 +253,54 @@ body{
     align-items: center;
     justify-content: center;
 }
+
+/* Choose part */
+.choose{
+    max-width: 1170px;
+    margin: 50px auto;
+}
+.choose-info{
+    text-align: center;
+    padding: 40px 0;
+}
+.choose-info h1{
+    padding-bottom: 20px;
+}
+.choose-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.card1, .card2, .card3{
+    width: 570px;
+    height: 290px;
+    border-radius: 16px;
+    padding: 40px;
+}
+.card1{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.card2{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.card3{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.card-title{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 40px 0;
+}
+.card-des{
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+}

@@ -54,4 +54,10 @@
         height: 176px;
         margin: 0 auto;
     }
+    .card1, .card2, .card3{
+        width: 90%;
+        height: 330px;
+        border-radius: 16px;
+        padding: 40px;
+    }
 }
